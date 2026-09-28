@@ -121,3 +121,40 @@
     line-height: 26px;
     margin: 0;
 }
+
+#plan{
+    padding-top: 130px;
+}
+
+#plan .plan-container{
+    width: 70%;
+    max-width: 1141px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plan-title h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-card h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 16px;
+    margin-top: 25px;
+}
+
+.plan-card p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}

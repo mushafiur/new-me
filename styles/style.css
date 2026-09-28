@@ -128,7 +128,7 @@
 
 #plan .plan-container{
     width: 70%;
-    max-width: 1141px;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
 }
@@ -157,4 +157,37 @@
     font-size: 25px;
     font-weight: 500;
     color: #737272;
+}
+
+#cta{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+#cta .cta-container {
+  width: 70%;
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 300px;
+  border-radius: 8px;
+
+  background-image: url("../images/gradient1.png"),  url("../images/watch.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, cover;
+  background-position: center, center;
+  
+  display: flex;
+  align-items: center;
+}
+
+.cta-content{
+    width: 459px;
+    padding: 59px 0px 59px 64px;
+}
+
+.cta-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 24px;
 }
